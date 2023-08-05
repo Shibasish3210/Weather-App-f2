@@ -93,6 +93,7 @@ body{
 }
 .weather:hover{
     transform: scale(1.25);
+    transition: all 0.2s ease;
 }
 .top,.bottom,.temp,.feels-like{
     padding-inline: 1vw;
