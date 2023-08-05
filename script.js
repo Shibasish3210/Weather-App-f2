@@ -101,4 +101,5 @@ function selectLogo(data){
 add_btn.addEventListener("click",fetchWeather);
 reset_btn.addEventListener("click",()=>{
     container.innerHTML = "";
+    arr = [];
 });
