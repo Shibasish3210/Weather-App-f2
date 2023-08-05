@@ -4,7 +4,7 @@ const input = document.getElementById("search-inpt");
 const add_btn = document.getElementById("add-city-btn");
 const reset_btn = document.getElementById("add-reset-btn");
 const apiKey = `49a3e7802d130c1107168d306e1ef957`;
-const arr = [];
+let arr = [];
 
 
 // Fetching data from openweathermap.org
